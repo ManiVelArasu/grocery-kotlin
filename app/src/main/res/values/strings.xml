@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">ok</string>
+    <string name="okay" />
+    <string name="entertheusername">Enter The Mobilenumber</string>
+    <string name="enterthevalidpassword">Enter The  Password</string>
+    <string name="enterthemobilenumber">Enter The MobileNumber</string>
+    <string name="enterthepassword">Enter The ValidPassword</string>
+    <string name="enterthevalidmobilenumber">Enter The 10 digit Number</string>
+    <string name="enterOTP">Enter The OTP</string>
+    <string name="entertheOTP">Enter Valid OTP</string>
+    <string name="gatagory">CATAGORY</string>
+    <string name="unviewed">GATAOGARY</string>
+    <string name="continue_watching">POPULAR</string>
+    <string name="viewed">WHATSNEW</string>
+    <string name="third_fragment">third</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

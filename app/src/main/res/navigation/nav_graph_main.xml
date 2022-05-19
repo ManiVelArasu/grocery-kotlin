@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main.xml">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.sample.navigationdrawer.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_homes">
+        <action
+            android:id="@+id/action_homeFragment2_to_gatagoryItemFragment"
+            app:destination="@id/gatagoryItemFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment2_to_newFragment"
+            app:destination="@id/popularFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gatagoryItemFragment"
+        android:name="io.a70mm.utils.view.GatagoryFragment"
+        android:label="fragment_gatagory_item"
+        tools:layout="@layout/fragment_gatagory_item" />
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="io.a70mm.utils.view.NewItemFragment"
+        android:label="PopularFragment"
+        tools:layout="@layout/fragment_popular"/>
+</navigation>

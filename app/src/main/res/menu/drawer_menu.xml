@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:title="home" />
+    </group>
+
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/myListFragment"
+
+            android:title="MyList"
+         />
+        <item
+            android:id="@+id/orderFragment"
+            android:title="Order" />
+    </group>
+
+
+    <group
+        android:id="@+id/grp_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settingFragment"
+            android:title="setting" />
+        <item
+            android:id="@+id/HelpFragment"
+
+            android:title="help" />
+    </group>
+
+</menu>
